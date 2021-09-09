@@ -27,9 +27,7 @@ h2 {
   border: 2px solid #5E5689; }
 
 .imgWrap {
-  position: relative;
-  /* height: 200px;
-     width: 257px; */ }
+  position: relative; }
 
 .imgDescription {
   position: absolute;
@@ -53,7 +51,6 @@ h2 {
 
 .imagenRecurso {
   width: 260px;
-  /* border-radius: 160px; */
   border: 2px solid #5E5689; }
 
 .textoPrincipal {
@@ -102,7 +99,6 @@ form {
   border-style: dashed;
   border-color: black;
   border-width: 1px;
-  /* width: 100%; */
   height: auto;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.8; }
