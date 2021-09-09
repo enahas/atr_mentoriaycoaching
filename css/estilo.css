@@ -2,6 +2,10 @@
   width: 180px;
   margin: 30px; }
 
+.logoInicio {
+  width: 300px;
+  margin: 30px; }
+
 h1 {
   color: #231F20;
   font-family: 'Quicksand', sans-serif;
@@ -54,7 +58,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   line-height: 1.8;
-  padding: 50px 100px; }
+  padding: 100px 100px; }
 
 .logoFooter {
   width: 30px;
