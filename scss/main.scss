@@ -1,18 +1,24 @@
 .logoHeader{width:180px;margin:30px}
-.logoInicio{width:300px;margin:30px}
+.logoInicio{
+    width:300px;
+    margin:30px;
+    -webkit-box-shadow: -18px 18px 0px -1px #5E5689; 
+    box-shadow: -18px 18px 0px -1px #5E5689;
+}
 
 h1{
     color: #231F20;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 h2{
     color: #5E5689;
     font-family: 'Quicksand', sans-serif;
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .imagenInicio{
