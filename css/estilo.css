@@ -51,7 +51,7 @@ h2 {
 
 .imagenRecurso {
   width: 260px;
-  border: 2px solid; }
+  border: 2px solid #5E5689; }
 
 .textoPrincipal {
   color: #5E5689;
@@ -81,7 +81,7 @@ body {
   background-attachment: fixed; }
 
 nav {
-  color: #231F20;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   transition: all .3s; }
 
