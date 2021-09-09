@@ -9,7 +9,7 @@
   box-shadow: -18px 18px 0px -1px #5E5689; }
 
 h1 {
-  color: #231F20;
+  color: black;
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 40px;
   font-size: 50px; }
@@ -51,7 +51,7 @@ h2 {
 
 .imagenRecurso {
   width: 260px;
-  border: 2px solid #5E5689; }
+  border: 2px solid; }
 
 .textoPrincipal {
   color: #5E5689;
