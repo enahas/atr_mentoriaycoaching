@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-    color: $colortexto;
+    color: $negro;
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 20px;
     font-size: 40px;
@@ -64,12 +64,12 @@ h2{
    opacity: 1;
  }
  .imagenRecurso {
-    width: 260px;
+    width: 360px;
     border: 2px solid $colortexto;
  }
 
 .textoPrincipal{
-    color:$colortexto;
+    // color:$colortexto;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     line-height: 1.8;
@@ -84,11 +84,6 @@ h2{
     padding: 100px 100px;
 }
 
-.textoBoton{
-    color:white;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-}
 
 .logoFooter{
     width: 30px;
@@ -120,8 +115,8 @@ nav{
     transition: all .3s;
 }
 
-li{transition: all .3s;}
-li:hover {transform: scale(1.2);}
+nav ul li{transition: all .3s;}
+nav ul li:hover {transform: scale(1.2);}
 
 form{
     margin: 0 auto;
