@@ -23,7 +23,8 @@ h2 {
 
 .cuadro {
   -webkit-box-shadow: 4px -4px 7px -1px rgba(94, 86, 137, 0.51);
-  box-shadow: 4px -4px 7px -1px rgba(94, 86, 137, 0.51); }
+  box-shadow: 4px -4px 7px -1px rgba(94, 86, 137, 0.51);
+  background-color: #5E5689; }
 
 .imagenInicio {
   width: 180px;
@@ -62,7 +63,19 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   line-height: 1.8;
+  padding: 60px 20px; }
+
+.textoPrincipalConFondo {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  line-height: 1.8;
   padding: 100px 100px; }
+
+.textoBoton {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal; }
 
 .logoFooter {
   width: 30px;
@@ -106,3 +119,7 @@ form {
   height: auto;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.8; }
+
+footer {
+  background-color: #b2cea8;
+  padding: 50px 0px; }
