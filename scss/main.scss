@@ -25,6 +25,11 @@ h2{
     font-weight: 700;
 }
 
+.cuadro{
+    -webkit-box-shadow: 4px -4px 7px -1px rgba(94,86,137,0.51); 
+    box-shadow: 4px -4px 7px -1px rgba(94,86,137,0.51);
+}
+
 .imagenInicio{
     width: 180px;
     border-radius: 160px;
