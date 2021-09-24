@@ -1,6 +1,5 @@
 .logoHeader {
-  width: 180px;
-  margin: 30px; }
+  width: 180px; }
 
 .logoInicio {
   width: 300px;
@@ -36,7 +35,7 @@ h2 {
 
 .owl-carousel .owl-item img {
   margin: 0 auto;
-  width: 70%; }
+  width: 60%; }
 
 .imgWrap {
   position: relative; }
@@ -132,4 +131,10 @@ footer {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     line-height: 1.8;
-    padding: 30px 20px; } }
+    padding: 30px 20px; }
+  h2 {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700; } }

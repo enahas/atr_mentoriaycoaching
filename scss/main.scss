@@ -2,7 +2,10 @@ $colortexto:#5E5689;
 $negro:black;
 
 
-.logoHeader{width:180px;margin:30px}
+.logoHeader{width:180px;
+    // margin:30px
+}
+
 .logoInicio{
     width:300px;
     margin:30px;
@@ -45,7 +48,7 @@ h2{
 
 .owl-carousel .owl-item img {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
 }
 
 .imgWrap {
@@ -157,4 +160,13 @@ footer{
         line-height: 1.8;
         padding: 30px 20px;
     }
+
+    h2{
+        color: $negro;
+        font-family: 'Quicksand', sans-serif;
+        margin-bottom: 20px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
 }
