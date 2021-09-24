@@ -10,6 +10,11 @@ $negro:black;
     box-shadow: -18px 18px 0px -1px $colortexto;
 }
 
+.nav-item{
+    font-weight: 600 !important;
+}
+
+
 h1{
     color: $negro;
     font-family: 'Quicksand', sans-serif;
@@ -25,6 +30,7 @@ h2{
     font-weight: 700;
 }
 
+
 .cuadro{
     -webkit-box-shadow: 4px -4px 7px -1px rgba(94,86,137,0.51); 
     box-shadow: 4px -4px 7px -1px rgba(94,86,137,0.51);
@@ -33,8 +39,13 @@ h2{
 
 .imagenInicio{
     width: 180px;
-    border-radius: 160px;
+    border-radius: 50%;
     border: 2px solid $colortexto;
+}
+
+.owl-carousel .owl-item img {
+    margin: 0 auto;
+    width: 70%;
 }
 
 .imgWrap {
@@ -134,4 +145,16 @@ form{
 footer{
     background-color: rgb(178,206,168);
     padding: 50px 0px;
+}
+
+/* vista mobile */
+
+@media only screen and (max-width: 767px){
+    .textoPrincipalConFondo{
+        color:white;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        line-height: 1.8;
+        padding: 30px 20px;
+    }
 }

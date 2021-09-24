@@ -8,6 +8,9 @@
   -webkit-box-shadow: -18px 18px 0px -1px #5E5689;
   box-shadow: -18px 18px 0px -1px #5E5689; }
 
+.nav-item {
+  font-weight: 600 !important; }
+
 h1 {
   color: black;
   font-family: 'Quicksand', sans-serif;
@@ -28,8 +31,12 @@ h2 {
 
 .imagenInicio {
   width: 180px;
-  border-radius: 160px;
+  border-radius: 50%;
   border: 2px solid #5E5689; }
+
+.owl-carousel .owl-item img {
+  margin: 0 auto;
+  width: 70%; }
 
 .imgWrap {
   position: relative; }
@@ -117,3 +124,12 @@ form {
 footer {
   background-color: #b2cea8;
   padding: 50px 0px; }
+
+/* vista mobile */
+@media only screen and (max-width: 767px) {
+  .textoPrincipalConFondo {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    line-height: 1.8;
+    padding: 30px 20px; } }
