@@ -2,15 +2,23 @@ $colortexto:#5E5689;
 $negro:black;
 
 
-.logoHeader{width:180px;
-    // margin:30px
-}
+.logoHeader{width:180px;}
 
 .logoInicio{
     width:300px;
     margin:30px;
     -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
     box-shadow: -18px 18px 0px -1px $colortexto;
+}
+
+.logoEneagrama{
+    margin:15px;
+    -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
+    box-shadow: -18px 18px 0px -1px $colortexto;
+    height: 100%;
+    min-height: 290px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .nav-item{
