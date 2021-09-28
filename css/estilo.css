@@ -32,6 +32,13 @@ h2 {
   font-size: 40px;
   font-weight: 700; }
 
+h4 {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700; }
+
 .cuadro {
   -webkit-box-shadow: 4px -4px 7px -1px rgba(94, 86, 137, 0.51);
   box-shadow: 4px -4px 7px -1px rgba(94, 86, 137, 0.51);
