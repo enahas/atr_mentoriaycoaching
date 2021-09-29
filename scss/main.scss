@@ -12,7 +12,6 @@ $negro:black;
 }
 
 .logoEneagrama{
-    // padding:15px;
     -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
     box-shadow: -18px 18px 0px -1px $colortexto;
     height: 100%;
@@ -49,6 +48,19 @@ h4{
     font-weight: 700;
 }
 
+nav{
+    color: $negro;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .3s;
+}
+
+nav ul li{transition: all .3s;}
+nav ul li:hover {
+    transform: scale(1.2);
+}
+
+a{transition: all .3s;}
+a:hover {color:rgb(178,206,168) !important;}
 
 .cuadro{
     -webkit-box-shadow: 4px -4px 7px -1px rgba(94,86,137,0.51); 
@@ -139,14 +151,7 @@ h4{
     background-size: cover;
     background-attachment: fixed;
 }
-nav{
-    color: $negro;
-    font-family: 'Open Sans', sans-serif;
-    transition: all .3s;
-}
 
-nav ul li{transition: all .3s;}
-nav ul li:hover {transform: scale(1.2);}
 
 footer{
     background-color: rgb(178,206,168);
@@ -172,13 +177,18 @@ footer{
         font-weight: 700;
     }
 
-    .logoEneagrama{
+    .logoMobile{
         width: 80%;
         object-fit: cover;
         margin: 0 auto;
+        -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
+        box-shadow: -18px 18px 0px -1px $colortexto;
+        height: 100%;
+        overflow-x:hidden;
     }
 
     .alineacion{
-        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 }
