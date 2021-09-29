@@ -2,13 +2,11 @@
   width: 180px; }
 
 .logoInicio {
-  width: 300px;
-  margin: 30px;
+  width: 100%;
   -webkit-box-shadow: -18px 18px 0px -1px #5E5689;
   box-shadow: -18px 18px 0px -1px #5E5689; }
 
 .logoEneagrama {
-  margin: 15px;
   -webkit-box-shadow: -18px 18px 0px -1px #5E5689;
   box-shadow: -18px 18px 0px -1px #5E5689;
   height: 100%;
@@ -106,7 +104,8 @@ h4 {
 body {
   background-image: url("../assets/img/fondo.png");
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  overflow-x: hidden; }
 
 .fondo {
   background-image: url("../assets/img/fondo.png");
@@ -123,18 +122,6 @@ nav ul li {
 
 nav ul li:hover {
   transform: scale(1.2); }
-
-form {
-  margin: 0 auto;
-  width: fit-content;
-  text-align: justify;
-  padding: 20px;
-  border-style: dashed;
-  border-color: black;
-  border-width: 1px;
-  height: auto;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.8; }
 
 footer {
   background-color: #b2cea8;
@@ -153,4 +140,10 @@ footer {
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 20px;
     font-size: 35px;
-    font-weight: 700; } }
+    font-weight: 700; }
+  .logoEneagrama {
+    width: 80%;
+    object-fit: cover;
+    margin: 0 auto; }
+  .alineacion {
+    align-items: center; } }
