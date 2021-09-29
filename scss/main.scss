@@ -178,12 +178,9 @@ footer{
     }
 
     .logoMobile{
-        width: 80%;
-        object-fit: cover;
-        margin: 0 auto;
         -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
         box-shadow: -18px 18px 0px -1px $colortexto;
-        height: 100%;
+        max-width: 300px;
         overflow-x:hidden;
     }
 
