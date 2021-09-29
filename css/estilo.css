@@ -6,14 +6,6 @@
   -webkit-box-shadow: -18px 18px 0px -1px #5E5689;
   box-shadow: -18px 18px 0px -1px #5E5689; }
 
-.logoEneagrama {
-  -webkit-box-shadow: -18px 18px 0px -1px #5E5689;
-  box-shadow: -18px 18px 0px -1px #5E5689;
-  height: 100%;
-  min-height: 290px;
-  width: 100%;
-  object-fit: cover; }
-
 .nav-item {
   font-weight: 600 !important; }
 
@@ -147,11 +139,8 @@ footer {
     margin-bottom: 20px;
     font-size: 35px;
     font-weight: 700; }
-  .logoMobile {
-    -webkit-box-shadow: -18px 18px 0px -1px #5E5689;
-    box-shadow: -18px 18px 0px -1px #5E5689;
-    max-width: 300px;
-    overflow-x: hidden; }
+  .logoInicio {
+    max-width: 300px; }
   .alineacion {
     display: flex;
     justify-content: center; } }

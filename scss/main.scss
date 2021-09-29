@@ -6,18 +6,8 @@ $negro:black;
 
 .logoInicio{
     width:100%;
-    // margin:30px;
     -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
     box-shadow: -18px 18px 0px -1px $colortexto;
-}
-
-.logoEneagrama{
-    -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
-    box-shadow: -18px 18px 0px -1px $colortexto;
-    height: 100%;
-    min-height: 290px;
-    width: 100%;
-    object-fit: cover;
 }
 
 .nav-item{
@@ -83,7 +73,7 @@ a:hover {color:rgb(178,206,168) !important;}
     position: relative;
  }
  
- .imgDescription {
+.imgDescription {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -102,10 +92,10 @@ a:hover {color:rgb(178,206,168) !important;}
   margin-bottom: 0;
  }
  
- .imgWrap:hover .imgDescription {
+.imgWrap:hover .imgDescription {
    opacity: 1;
  }
- .imagenRecurso {
+.imagenRecurso {
     width: 360px;
     border: 2px solid $colortexto;
  }
@@ -125,7 +115,6 @@ a:hover {color:rgb(178,206,168) !important;}
     padding: 100px 100px;
 }
 
-
 .logoFooter{
     width: 30px;
     transition: all .3s;
@@ -135,7 +124,7 @@ a:hover {color:rgb(178,206,168) !important;}
     transform: scale(1.4);
  }
 
- .paddingBS{
+.paddingBS{
      padding: 20px;
  }
 
@@ -151,7 +140,6 @@ a:hover {color:rgb(178,206,168) !important;}
     background-size: cover;
     background-attachment: fixed;
 }
-
 
 footer{
     background-color: rgb(178,206,168);
@@ -177,11 +165,8 @@ footer{
         font-weight: 700;
     }
 
-    .logoMobile{
-        -webkit-box-shadow: -18px 18px 0px -1px $colortexto; 
-        box-shadow: -18px 18px 0px -1px $colortexto;
+    .logoInicio{
         max-width: 300px;
-        overflow-x:hidden;
     }
 
     .alineacion{
