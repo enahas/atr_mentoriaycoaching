@@ -1,3 +1,11 @@
+body {
+  background-image: url("../assets/img/fondo.png");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.container {
+  overflow: hidden; }
+
 .logoHeader {
   width: 180px; }
 
@@ -109,12 +117,6 @@ a:hover {
 
 .paddingBS {
   padding: 20px; }
-
-body {
-  background-image: url("../assets/img/fondo.png");
-  background-size: cover;
-  background-attachment: fixed;
-  overflow-x: hidden; }
 
 .fondo {
   background-image: url("../assets/img/fondo.png");

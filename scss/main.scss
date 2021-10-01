@@ -1,6 +1,13 @@
 $colortexto:#5E5689;
 $negro:black;
 
+body{
+    background-image:url("../assets/img/fondo.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{overflow:hidden;}
 
 .logoHeader{width:180px;}
 
@@ -128,12 +135,6 @@ a:hover {color:rgb(178,206,168) !important;}
      padding: 20px;
  }
 
- body{
-    background-image:url("../assets/img/fondo.png");
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-x:hidden
-}
 
 .fondo{
     background-image:url("../assets/img/fondo.png");
